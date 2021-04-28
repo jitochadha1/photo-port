@@ -9,7 +9,7 @@ function Nav(props) {
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
+    document.title = capitalizeFirstLetter(name);
   }, [currentCategory]);
 
   return (
