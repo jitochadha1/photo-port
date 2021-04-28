@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import About from '/Users/a1.618/Dropbox/ucla_bootcamp/projects/photo-port/src/components/About/index.js';
+import About from '/Users/Jito/Dropbox/ucla_bootcamp/projects/photo-port/src/components/About/index.js';
 
 afterEach(cleanup);
 
